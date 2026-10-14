@@ -1,8 +1,8 @@
 class Quickconvert < Formula
   desc "Convert files from Finder's right-click menu: images, video, audio, documents"
   homepage "https://github.com/jgreen417/QuickConvert"
-  url "https://github.com/jgreen417/QuickConvert/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "6cffc1092558639dbb8d136b52b955c24532a50672b11aee5963cd8a05e25029"
+  url "https://github.com/jgreen417/QuickConvert/archive/refs/tags/v1.0.1.tar.gz"
+  sha256 "d50ff8ad1bdbf6c77124373b2d0bd3a98f9f0358797b28faef341922fbcde13e"
   license "MIT"
 
   depends_on "ffmpeg"
