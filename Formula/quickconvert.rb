@@ -1,14 +1,14 @@
 class Quickconvert < Formula
-  desc "Convert files from Finder's right-click menu: images, video, audio, PDFs, documents"
+  desc "Convert files from Finder's right-click menu: images, video, audio, documents"
   homepage "https://github.com/jgreen417/QuickConvert"
   url "https://github.com/jgreen417/QuickConvert/archive/refs/tags/v1.0.0.tar.gz"
   sha256 "6cffc1092558639dbb8d136b52b955c24532a50672b11aee5963cd8a05e25029"
   license "MIT"
 
-  depends_on macos: :ventura
   depends_on "ffmpeg"
   depends_on "imagemagick"
   depends_on "librsvg"
+  depends_on macos: :ventura
   depends_on "poppler"
 
   def install
